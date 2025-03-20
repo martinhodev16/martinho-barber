@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation - Casa Barbershop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Réservez votre rendez-vous</h1>
+    </header>
+    
+    <section class="reservation-form">
+        <form action="#" method="POST">
+            <label for="coiffeur">Choisissez votre coiffeur :</label>
+            <select id="coiffeur" name="coiffeur" required>
+                <option value="alex">martin</option>
+                <option value="max">tom</option>
+                <option value="leo">tiago le charcleur</option>
+            </select>
+            
+            <label for="style">Type de coupe :</label>
+            <select id="style" name="style" required>
+                <option value="taper">taper</option>
+                <option value="degradé">Dégradé</option>
+                <option value="degradé espagnol">degradé espagnol</option>
+            </select>
+            
+            <label for="date">Choisissez la date :</label>
+            <input type="date" id="date" name="date" required>
+            
+            <button type="submit">Réserver</button>
+        </form>
+    </section>
+</body>
+</html>
